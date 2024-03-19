@@ -15,14 +15,14 @@ There are several possibilities to install the needed libraries for this tutoria
 - if you use venv's or want to install it locally you can pip install `requirements.txt` and your jupyter notebook
 - if you do not want to install anything locally you can run everything on Google Colab by clicking the button below
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Digital-Dermatology/data-cleaning-hands-on/]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Digital-Dermatology/data-cleaning-hands-on/)
 
 ## Hands On
 
-1. ![00 Traditional](notebooks/00_Traditional_Cleaning.ipynb)
-1. ![01 FastDup](notebooks/01_FastDup.ipynb)
-1. ![02 CleanLab](notebooks/02_CleanLab.ipynb)
-1. ![03 SelfClean](notebooks/03_SelfClean.ipynb)
+1. [00 Traditional](notebooks/00_Traditional_Cleaning.ipynb)
+1. [01 FastDup](notebooks/01_FastDup.ipynb)
+1. [02 CleanLab](notebooks/02_CleanLab.ipynb)
+1. [03 SelfClean](notebooks/03_SelfClean.ipynb)
 
 In the first tutorial, we will see how difficult it can be to perform data cleaning for image datasets traditionally or manually.
 Then in the next tutorials we will look at how easy it can be when relying on data-centric cleaning frameworks.
