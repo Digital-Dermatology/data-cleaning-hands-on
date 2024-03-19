@@ -13,9 +13,15 @@ The major repositories containing resources for data cleaning will be presented 
 There are several possibilities to install the needed libraries for this tutorial, depending on your preferences:
 - if you use Docker you can start a jupyter notebook server with make by running `make start_jupyter`
 - if you use venv's or want to install it locally you can pip install `requirements.txt` and your jupyter notebook
-- if you do not want to install anything locally you can run everything on Google Colab by clicking the button below
+- if you do not want to install anything locally you can run everything on Google Colab by clicking the button below, remember to change the runtime to GPU.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Digital-Dermatology/data-cleaning-hands-on/)
+
+**NOTE:** 
+We recommend using Google Colab to run the tutorial.
+We also provide setup for a virtual environment and Docker. 
+However, we cannot guarantee that the setup will work on your machine. 
+These options may be the best if you do not want to upload your datasets, but depending on your hardware and internet connection, you may have to deal with longer install times, disk space requirements, or slower computations.
 
 ## Hands On
 
@@ -25,4 +31,4 @@ There are several possibilities to install the needed libraries for this tutoria
 1. [03 SelfClean](notebooks/03_SelfClean.ipynb)
 
 In the first tutorial, we will see how difficult it can be to perform data cleaning for image datasets traditionally or manually.
-Then in the next tutorials we will look at how easy it can be when relying on data-centric cleaning frameworks.
+Then, in the next tutorials, we will examine how easy this task can be made when relying on data-centric cleaning frameworks.

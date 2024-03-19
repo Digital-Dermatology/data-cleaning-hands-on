@@ -40,15 +40,7 @@ ifeq ($(origin CONTAINER_NAME), undefined)
 endif
 
 ifeq ($(origin LOCAL_DATA_DIR), undefined)
-  LOCAL_DATA_DIR := /data/
-endif
-
-ifeq ($(origin DOCKER_SRC_DIR), undefined)
-  DOCKER_SRC_DIR := "/workspace/"
-endif
-
-ifeq ($(origin LOCAL_DATA_DIR), undefined)
-  LOCAL_DATA_DIR := /data/
+  LOCAL_DATA_DIR := $$PWD/data/
 endif
 
 ifeq ($(origin GPU_ID), undefined)
@@ -58,12 +50,12 @@ else
   GPU_NAME = $(subst $(COMMA),$(DASH),$(GPU_ID))
 endif
 
-ifeq ("$(GPU)", "false")
-  GPU_ARGS := --gpus '"device="'
-  DOCKER_CONTAINER_NAME := --name $(PROJECTNAME)_$(CONTAINER_NAME)
-else
+ifeq ("$(GPU)", "true")
   GPU_ARGS := --gpus '"device=$(GPU_ID)"' --shm-size 200G --ipc=host
   DOCKER_CONTAINER_NAME := --name $(PROJECTNAME)_gpu_$(GPU_NAME)_$(CONTAINER_NAME)
+else
+  GPU_ARGS := --gpus '"device="'
+  DOCKER_CONTAINER_NAME := --name $(PROJECTNAME)_$(CONTAINER_NAME)
 endif
 
 # count elements in comma-seperated GPU list
@@ -118,5 +110,5 @@ run_bash: _build  ##@Docker run an interactive bash inside the docker image (def
 
 start_jupyter: _build  ##@Docker start a jupyter notebook inside the docker image
 	@echo "Starting jupyter notebook"
-	@-docker rm $(PROJECTNAME)_gpu_$(GPU_ID)
-	$(DOCKER_GPU_CMD) /bin/bash -c "jupyter notebook --allow-root --ip 0.0.0.0 --port 8888"
+	@-docker rm $(DOCKER_CONTAINER_NAME)
+	$(DOCKER_CMD) /bin/bash -c "jupyter notebook --allow-root --ip 0.0.0.0 --port 8888"
