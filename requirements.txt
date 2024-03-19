@@ -1,0 +1,10 @@
+matplotlib
+numpy
+opencv-python
+pandas
+scikit-learn
+timm
+tqdm
+torch
+torchvision
+cleanlab[datalab]
