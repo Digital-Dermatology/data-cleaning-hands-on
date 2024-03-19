@@ -54,7 +54,11 @@ ifeq ("$(GPU)", "true")
   GPU_ARGS := --gpus '"device=$(GPU_ID)"' --shm-size 200G --ipc=host
   DOCKER_CONTAINER_NAME := --name $(PROJECTNAME)_gpu_$(GPU_NAME)_$(CONTAINER_NAME)
 else
-  GPU_ARGS := --gpus '"device="'
+  ifeq (, $(shell which nvidia-smi))
+    GPU_ARGS :=
+  else
+    GPU_ARGS := --gpus '"device="'
+  endif
   DOCKER_CONTAINER_NAME := --name $(PROJECTNAME)_$(CONTAINER_NAME)
 endif
 
