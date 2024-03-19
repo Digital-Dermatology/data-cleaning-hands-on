@@ -20,18 +20,15 @@ def get_oxford_pets3t(
     **kwargs,
 ):
     root_path = Path(root_path)
-    if not root_path.exists():
-        # download the dataset
+    if not (root_path / "images").exists():
+        root_path.mkdir(parents=True, exist_ok=True)
         response = requests.get(OXFORD_PETS_URL, stream=True)
         tar_path = root_path / "images.tar.gz"
         with open(tar_path, "wb") as f:
             for chunk in response.iter_content(chunk_size=1024):
                 f.write(chunk)
-        # create the directory and extract the file
-        root_path.mkdir(parents=True, exist_ok=True)
         with tarfile.open(tar_path) as tar:
-            tar.extractall(path=root_path)
-        # remove the tar file after extraction
+            tar.extractall(root_path / "images")
         os.remove(tar_path)
     else:
         print(f"Oxford PetIIIT already downloaded to `{root_path}`.")
