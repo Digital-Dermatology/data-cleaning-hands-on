@@ -28,7 +28,7 @@ def get_oxford_pets3t(
             for chunk in response.iter_content(chunk_size=1024):
                 f.write(chunk)
         with tarfile.open(tar_path) as tar:
-            tar.extractall(root_path / "images")
+            tar.extractall(root_path)
         os.remove(tar_path)
     else:
         print(f"Oxford PetIIIT already downloaded to `{root_path}`.")
