@@ -36,7 +36,8 @@ Then, in the next tutorials, we will examine how easy this task can be made when
       <td rowspan="4">
          <b>Traditional (manual) data cleaning:</b> Showcases how manual data cleaning is typically done and calculates the effort required for exhaustive annotation.
          <br>
-         <b>📌 Dataset:</b> <a href="https://www.robots.ox.ac.uk/~vgg/data/pets/">Oxford-IIIT Pet</a>, <a href="https://github.com/fastai/imagenette">Imagenette</a>, your own.
+         <br>
+         <b>🗃️ Dataset:</b> <a href="https://www.robots.ox.ac.uk/~vgg/data/pets/">Oxford-IIIT Pet</a>, <a href="https://github.com/fastai/imagenette">Imagenette</a>, your own.
       </td>
       <td align="center" width="80">
          <a href="https://nbviewer.org/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/00_Traditional_Cleaning.ipynb">
@@ -73,7 +74,8 @@ Then, in the next tutorials, we will examine how easy this task can be made when
       <td rowspan="4">
          <b>FastDup:</b> Learn how to analyze and clean datasets using FastDup, the preferred solution for very large data collections.
          <br>
-         <b>📌 Dataset:</b> <a href="https://www.robots.ox.ac.uk/~vgg/data/pets/">Oxford-IIIT Pet</a>, <a href="https://github.com/fastai/imagenette">Imagenette</a>, your own.
+         <br>
+         <b>🗃️ Dataset:</b> <a href="https://www.robots.ox.ac.uk/~vgg/data/pets/">Oxford-IIIT Pet</a>, <a href="https://github.com/fastai/imagenette">Imagenette</a>, your own.
       </td>
       <td align="center" width="80">
          <a href="https://nbviewer.org/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/01_FastDup.ipynb">
@@ -110,7 +112,8 @@ Then, in the next tutorials, we will examine how easy this task can be made when
       <td rowspan="4">
          <b>CleanLab:</b> Learn how to analyze and clean datasets using CleanLab (DataLab), the preferred solution for reliable results.
          <br>
-         <b>📌 Dataset:</b> <a href="https://www.robots.ox.ac.uk/~vgg/data/pets/">Oxford-IIIT Pet</a>, <a href="https://github.com/fastai/imagenette">Imagenette</a>, your own.
+         <br>
+         <b>🗃️ Dataset:</b> <a href="https://www.robots.ox.ac.uk/~vgg/data/pets/">Oxford-IIIT Pet</a>, <a href="https://github.com/fastai/imagenette">Imagenette</a>, your own.
       </td>
       <td align="center" width="80">
          <a href="https://nbviewer.org/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/02_CleanLab.ipynb">
@@ -147,7 +150,8 @@ Then, in the next tutorials, we will examine how easy this task can be made when
       <td rowspan="4">
          <b>SelfClean:</b> Learn how to analyze and clean datasets using SelfClean, the preferred solution for small to medium datasets with an emphasis on the highest data quality.
          <br>
-         <b>📌 Dataset:</b> <a href="https://www.robots.ox.ac.uk/~vgg/data/pets/">Oxford-IIIT Pet</a>, <a href="https://github.com/fastai/imagenette">Imagenette</a>, your own.
+         <br>
+         <b>🗃️ Dataset:</b> <a href="https://www.robots.ox.ac.uk/~vgg/data/pets/">Oxford-IIIT Pet</a>, <a href="https://github.com/fastai/imagenette">Imagenette</a>, your own.
       </td>
       <td align="center" width="80">
          <a href="https://nbviewer.org/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/03_SelfClean.ipynb">
