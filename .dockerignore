@@ -7,9 +7,12 @@ models/*/*
 wandb
 wandb/*
 wandb/*/*
-examples
-examples/*
-examples/*/*
+notebooks
+notebooks/*
+notebooks/*/*
+pre_computed_assets
+pre_computed_assets/*
+pre_computed_assets/*/*
 tmp
 tmp/*
 profiler
