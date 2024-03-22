@@ -25,10 +25,156 @@ These options may be the best if you do not want to upload your datasets, but de
 
 ## Hands On
 
-1. [00 Traditional](notebooks/00_Traditional_Cleaning.ipynb)
-1. [01 FastDup](notebooks/01_FastDup.ipynb)
-1. [02 CleanLab](notebooks/02_CleanLab.ipynb)
-1. [03 SelfClean](notebooks/03_SelfClean.ipynb)
-
 In the first tutorial, we will see how difficult it can be to perform data cleaning for image datasets traditionally or manually.
 Then, in the next tutorials, we will examine how easy this task can be made when relying on data-centric cleaning frameworks.
+
+<table>
+   <tr>
+      <td rowspan="4" width="160">
+         00
+      </td>
+      <td rowspan="4">
+         <b>Traditional (manual) data cleaning:</b> Showcases how manual data cleaning is typically done and calculates the effort required for exhaustive annotation.
+         <br>
+         <b>📌 Dataset:</b> <a href="https://www.robots.ox.ac.uk/~vgg/data/pets/">Oxford-IIIT Pet</a>, <a href="https://github.com/fastai/imagenette">Imagenette</a>, your own.
+      </td>
+      <td align="center" width="80">
+         <a href="https://nbviewer.org/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/00_Traditional_Cleaning.ipynb">
+         <img src="./assets/nbviewer_logo.png" height="30">
+         </a>
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <a href="https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/00_Traditional_Cleaning.ipynb">
+         <img src="./assets/github_logo.png" height="25">
+         </a>
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <a href="https://colab.research.google.com/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/00_Traditional_Cleaning.ipynb">
+         <img src="./assets/colab_logo.png" height="20">
+         </a>
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <a href="https://kaggle.com/kernels/welcome?src=https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/00_Traditional_Cleaning.ipynb">
+         <img src="./assets/kaggle_logo.png" height="25">
+         </a>
+      </td>
+   </tr>
+   <!-- ------------------------------------------------------------------- -->
+   <tr>
+      <td rowspan="4" width="160">
+         01
+      </td>
+      <td rowspan="4">
+         <b>FastDup:</b> Learn how to analyze and clean datasets using FastDup, the preferred solution for very large data collections.
+         <br>
+         <b>📌 Dataset:</b> <a href="https://www.robots.ox.ac.uk/~vgg/data/pets/">Oxford-IIIT Pet</a>, <a href="https://github.com/fastai/imagenette">Imagenette</a>, your own.
+      </td>
+      <td align="center" width="80">
+         <a href="https://nbviewer.org/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/01_FastDup.ipynb">
+         <img src="./assets/nbviewer_logo.png" height="30">
+         </a>
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <a href="https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/01_FastDup.ipynb">
+         <img src="./assets/github_logo.png" height="25">
+         </a>
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <a href="https://colab.research.google.com/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/01_FastDup.ipynb">
+         <img src="./assets/colab_logo.png" height="20">
+         </a>
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <a href="https://kaggle.com/kernels/welcome?src=https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/01_FastDup.ipynb">
+         <img src="./assets/kaggle_logo.png" height="25">
+         </a>
+      </td>
+   </tr>
+   <!-- ------------------------------------------------------------------- -->
+   <tr>
+      <td rowspan="4" width="160">
+         02
+      </td>
+      <td rowspan="4">
+         <b>CleanLab:</b> Learn how to analyze and clean datasets using CleanLab (DataLab), the preferred solution for reliable results.
+         <br>
+         <b>📌 Dataset:</b> <a href="https://www.robots.ox.ac.uk/~vgg/data/pets/">Oxford-IIIT Pet</a>, <a href="https://github.com/fastai/imagenette">Imagenette</a>, your own.
+      </td>
+      <td align="center" width="80">
+         <a href="https://nbviewer.org/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/02_CleanLab.ipynb">
+         <img src="./assets/nbviewer_logo.png" height="30">
+         </a>
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <a href="https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/02_CleanLab.ipynb">
+         <img src="./assets/github_logo.png" height="25">
+         </a>
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <a href="https://colab.research.google.com/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/02_CleanLab.ipynb">
+         <img src="./assets/colab_logo.png" height="20">
+         </a>
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <a href="https://kaggle.com/kernels/welcome?src=https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/02_CleanLab.ipynb">
+         <img src="./assets/kaggle_logo.png" height="25">
+         </a>
+      </td>
+   </tr>
+   <!-- ------------------------------------------------------------------- -->
+   <tr>
+      <td rowspan="4" width="160">
+         03
+      </td>
+      <td rowspan="4">
+         <b>SelfClean:</b> Learn how to analyze and clean datasets using SelfClean, the preferred solution for small to medium datasets with an emphasis on the highest data quality.
+         <br>
+         <b>📌 Dataset:</b> <a href="https://www.robots.ox.ac.uk/~vgg/data/pets/">Oxford-IIIT Pet</a>, <a href="https://github.com/fastai/imagenette">Imagenette</a>, your own.
+      </td>
+      <td align="center" width="80">
+         <a href="https://nbviewer.org/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/03_SelfClean.ipynb">
+         <img src="./assets/nbviewer_logo.png" height="30">
+         </a>
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <a href="https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/03_SelfClean.ipynb">
+         <img src="./assets/github_logo.png" height="25">
+         </a>
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <a href="https://colab.research.google.com/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/03_SelfClean.ipynb">
+         <img src="./assets/colab_logo.png" height="20">
+         </a>
+      </td>
+   </tr>
+   <tr>
+      <td align="center">
+         <a href="https://kaggle.com/kernels/welcome?src=https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/03_SelfClean.ipynb">
+         <img src="./assets/kaggle_logo.png" height="25">
+         </a>
+      </td>
+   </tr>
+   <!-- ------------------------------------------------------------------- -->
+</table>
