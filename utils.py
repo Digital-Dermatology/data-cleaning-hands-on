@@ -74,7 +74,7 @@ def get_imagenette(
     **kwargs,
 ):
     root_path = Path(root_path)
-    if not root_path.exists():
+    if not (root_path / "imagenette2-160").exists():
         root_path.mkdir(parents=True, exist_ok=True)
         response = requests.get(IMAGENETTE_URL, stream=True)
         tar_path = root_path / "imagenette2-160.tgz"
