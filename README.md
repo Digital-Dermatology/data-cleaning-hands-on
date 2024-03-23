@@ -182,3 +182,7 @@ Then, in the next tutorials, we will examine how easy this task can be made when
    </tr>
    <!-- ------------------------------------------------------------------- -->
 </table>
+
+## Tips
+
+For more detailed tips during the hands-on session, consult our [dedicated page](data-cleaning-tutorial-tips.md)
