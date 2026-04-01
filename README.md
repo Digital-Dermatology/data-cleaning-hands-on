@@ -42,28 +42,28 @@ Then, in the next tutorials, we will examine how easy this task can be made when
       </td>
       <td align="center" width="80">
          <a href="https://nbviewer.org/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/00_Traditional_Cleaning.ipynb">
-         <img src="./assets/nbviewer_logo.png" height="30">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="25">
          </a>
       </td>
    </tr>
    <tr>
       <td align="center">
          <a href="https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/00_Traditional_Cleaning.ipynb">
-         <img src="./assets/github_logo.png" height="25">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" height="25">
          </a>
       </td>
    </tr>
    <tr>
       <td align="center">
          <a href="https://colab.research.google.com/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/00_Traditional_Cleaning.ipynb">
-         <img src="./assets/colab_logo.png" height="20">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="25">
          </a>
       </td>
    </tr>
    <tr>
       <td align="center">
          <a href="https://kaggle.com/kernels/welcome?src=https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/00_Traditional_Cleaning.ipynb">
-         <img src="./assets/kaggle_logo.png" height="25">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Kaggle_Logo.svg" height="25">
          </a>
       </td>
    </tr>
@@ -80,28 +80,28 @@ Then, in the next tutorials, we will examine how easy this task can be made when
       </td>
       <td align="center" width="80">
          <a href="https://nbviewer.org/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/01_FastDup.ipynb">
-         <img src="./assets/nbviewer_logo.png" height="30">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="25">
          </a>
       </td>
    </tr>
    <tr>
       <td align="center">
          <a href="https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/01_FastDup.ipynb">
-         <img src="./assets/github_logo.png" height="25">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" height="25">
          </a>
       </td>
    </tr>
    <tr>
       <td align="center">
          <a href="https://colab.research.google.com/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/01_FastDup.ipynb">
-         <img src="./assets/colab_logo.png" height="20">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="25">
          </a>
       </td>
    </tr>
    <tr>
       <td align="center">
          <a href="https://kaggle.com/kernels/welcome?src=https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/01_FastDup.ipynb">
-         <img src="./assets/kaggle_logo.png" height="25">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Kaggle_Logo.svg" height="25">
          </a>
       </td>
    </tr>
@@ -118,28 +118,28 @@ Then, in the next tutorials, we will examine how easy this task can be made when
       </td>
       <td align="center" width="80">
          <a href="https://nbviewer.org/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/02_CleanLab.ipynb">
-         <img src="./assets/nbviewer_logo.png" height="30">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="25">
          </a>
       </td>
    </tr>
    <tr>
       <td align="center">
          <a href="https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/02_CleanLab.ipynb">
-         <img src="./assets/github_logo.png" height="25">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" height="25">
          </a>
       </td>
    </tr>
    <tr>
       <td align="center">
          <a href="https://colab.research.google.com/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/02_CleanLab.ipynb">
-         <img src="./assets/colab_logo.png" height="20">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="25">
          </a>
       </td>
    </tr>
    <tr>
       <td align="center">
          <a href="https://kaggle.com/kernels/welcome?src=https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/02_CleanLab.ipynb">
-         <img src="./assets/kaggle_logo.png" height="25">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Kaggle_Logo.svg" height="25">
          </a>
       </td>
    </tr>
@@ -156,28 +156,28 @@ Then, in the next tutorials, we will examine how easy this task can be made when
       </td>
       <td align="center" width="80">
          <a href="https://nbviewer.org/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/03_SelfClean.ipynb">
-         <img src="./assets/nbviewer_logo.png" height="30">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="25">
          </a>
       </td>
    </tr>
    <tr>
       <td align="center">
          <a href="https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/03_SelfClean.ipynb">
-         <img src="./assets/github_logo.png" height="25">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" height="25">
          </a>
       </td>
    </tr>
    <tr>
       <td align="center">
          <a href="https://colab.research.google.com/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/03_SelfClean.ipynb">
-         <img src="./assets/colab_logo.png" height="20">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="25">
          </a>
       </td>
    </tr>
    <tr>
       <td align="center">
          <a href="https://kaggle.com/kernels/welcome?src=https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/03_SelfClean.ipynb">
-         <img src="./assets/kaggle_logo.png" height="25">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Kaggle_Logo.svg" height="25">
          </a>
       </td>
    </tr>
