@@ -31,10 +31,10 @@ Then, in the next tutorials, we will examine how easy this task can be made when
 
 <table>
    <tr>
-      <td rowspan="4" width="160">
+      <td rowspan="3" width="160">
          00
       </td>
-      <td rowspan="4">
+      <td rowspan="3">
          <b>Traditional (manual) data cleaning:</b> Showcases how manual data cleaning is typically done and calculates the effort required for exhaustive annotation.
          <br>
          <br>
@@ -60,19 +60,12 @@ Then, in the next tutorials, we will examine how easy this task can be made when
          </a>
       </td>
    </tr>
-   <tr>
-      <td align="center">
-         <a href="https://kaggle.com/kernels/welcome?src=https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/00_Traditional_Cleaning.ipynb">
-         <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Kaggle_Logo.svg" height="25">
-         </a>
-      </td>
-   </tr>
    <!-- ------------------------------------------------------------------- -->
    <tr>
-      <td rowspan="4" width="160">
+      <td rowspan="3" width="160">
          01
       </td>
-      <td rowspan="4">
+      <td rowspan="3">
          <b>FastDup:</b> Learn how to analyze and clean datasets using FastDup, the preferred solution for very large data collections.
          <br>
          <br>
@@ -98,19 +91,12 @@ Then, in the next tutorials, we will examine how easy this task can be made when
          </a>
       </td>
    </tr>
-   <tr>
-      <td align="center">
-         <a href="https://kaggle.com/kernels/welcome?src=https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/01_FastDup.ipynb">
-         <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Kaggle_Logo.svg" height="25">
-         </a>
-      </td>
-   </tr>
    <!-- ------------------------------------------------------------------- -->
    <tr>
-      <td rowspan="4" width="160">
+      <td rowspan="3" width="160">
          02
       </td>
-      <td rowspan="4">
+      <td rowspan="3">
          <b>CleanLab:</b> Learn how to analyze and clean datasets using CleanLab (DataLab), the preferred solution for reliable results.
          <br>
          <br>
@@ -136,19 +122,12 @@ Then, in the next tutorials, we will examine how easy this task can be made when
          </a>
       </td>
    </tr>
-   <tr>
-      <td align="center">
-         <a href="https://kaggle.com/kernels/welcome?src=https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/02_CleanLab.ipynb">
-         <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Kaggle_Logo.svg" height="25">
-         </a>
-      </td>
-   </tr>
    <!-- ------------------------------------------------------------------- -->
    <tr>
-      <td rowspan="4" width="160">
+      <td rowspan="3" width="160">
          03
       </td>
-      <td rowspan="4">
+      <td rowspan="3">
          <b>SelfClean:</b> Learn how to analyze and clean datasets using SelfClean, the preferred solution for small to medium datasets with an emphasis on the highest data quality.
          <br>
          <br>
@@ -171,13 +150,6 @@ Then, in the next tutorials, we will examine how easy this task can be made when
       <td align="center">
          <a href="https://colab.research.google.com/github/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/03_SelfClean.ipynb">
          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg" height="25">
-         </a>
-      </td>
-   </tr>
-   <tr>
-      <td align="center">
-         <a href="https://kaggle.com/kernels/welcome?src=https://github.com/Digital-Dermatology/data-cleaning-hands-on/blob/main/notebooks/03_SelfClean.ipynb">
-         <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Kaggle_Logo.svg" height="25">
          </a>
       </td>
    </tr>
