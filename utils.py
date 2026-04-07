@@ -3,6 +3,7 @@ import tarfile
 from pathlib import Path
 from typing import Union
 
+import medmnist
 import pandas as pd
 import requests
 from torchvision import datasets
@@ -26,6 +27,42 @@ imagenette_labels = {
 
 def class_name_from_file(img_path: str) -> str:
     return "_".join(Path(img_path).stem.split("_")[:-1])
+
+
+def get_medmnist(
+    root_path: Union[Path, str] = "medmnist",
+    medmnist_class: object = medmnist.RetinaMNIST,
+    size: int = 224,
+    return_dataframe: bool = False,
+    **kwargs,
+):
+    for split in ("train", "val", "test"):
+        medmnist_dataset = medmnist_class(split=split, download=True, size=size)
+        dataset_name = medmnist_dataset.info["python_class"]
+        image_folder = root_path / f"{medmnist_dataset.flag}{medmnist_dataset.size_flag}"
+        try: # Do not save if already on disk
+            next(image_folder.glob(f"{split}*"))
+        except StopIteration:
+            medmnist_dataset.save(folder=root_path)
+
+    class_names = medmnist_dataset.info["label"]
+    dataset = datasets.ImageFolder(root=str(root_path), **kwargs)
+    classes = list(class_names.values())
+    class_to_idx = {v: int(k) for k, v in class_names.items()}
+
+    targets = [int(sample[0].split("_")[-1].split(".")[0]) for sample in dataset.samples]
+    samples = [
+        (sample[0], new_target) for sample, new_target in zip(dataset.samples, targets)
+    ]
+
+    dataset.classes = classes
+    dataset.class_to_idx = class_to_idx
+    dataset.targets = targets
+    dataset.samples = samples
+
+    if return_dataframe:
+        return create_dataframe_from_dataset(samples, dataset)
+    return dataset
 
 
 def get_oxford_pets3t(
